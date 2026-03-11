@@ -1,14 +1,10 @@
 """
 ╔══════════════════════════════════════════════════════════════════╗
-║              GRIM SWEEP v2.0 - ESTUDO FORENSE                   ║
-║  Melhorias: multithreading, multi-usuário, cobertura forense    ║
-║             ampliada, log detalhado de operações                ║
+║              GRIM SWEEP v2.0 - ESTUDO FORENSE                    ║
+║  Melhorias: multithreading, multi-usuário, cobertura forense     ║
+║             ampliada, log detalhado de operações                 ║
+║                            Autor: Meng0la                        ║
 ╚══════════════════════════════════════════════════════════════════╝
-
-AVISO EDUCACIONAL:
-  Este script é desenvolvido para fins de estudo em forense digital,
-  privacidade e sanitização de sistemas Windows. Use apenas em
-  ambientes próprios ou com autorização explícita.
 """
 
 import os
@@ -856,4 +852,5 @@ def main():
         imprimir_relatorio(time.time() - start)
 
 if __name__ == "__main__":
+
     main()
